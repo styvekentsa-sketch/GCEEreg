@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('font.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    width: 420px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, .1);
+    color: azure;
+    border-radius: 10px;
+    padding: 40px 60px;
+}
+.wrapper h1 {
+   font-size: 36px;
+   text-align: center;
+}
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* background: salmon; */
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2) ;
+    border-radius: 40px;
+    font-size: 16px;
+    color: azure;
+    /* padding-right: 2px 4.5px 2px 2px; */
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <from action="">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" placeholder="First name" required>
+            </div>
+                 <div class="input-box">
+                <input type="text" placeholder="Second name" required>
+                <!-- <i class="fa-regular fa-user"></i> -->
+            </div>
+            <div class="input-box">
+                <input type="Password" Placeholder="Password" required>
+                </div>
+                <!-- <i class="fa-regular fa-lock"></i> -->
+                  <div class="input-box">
+                <input type="Password" Placeholder="Confirm password" required>
+            </div>
+            <div class="remember-forgot">
+                <label> <input type="checkbox"> Remember me</label>
+                <!-- <a href="#">Forgot Password?</a> -->
+            </div>
+            <button type="submit" class="btn">Sign in</button>
+            <div class="register-link">
+                <!-- <p>Don't have an account? <a href="#">Register</a></p> -->
+            </div>
+            <!-- <div>
+                <p class="back"> <a href="../LOGIN/index.html">Go back</a></p>
+            </div> -->
+        </from>
+    </div>
+</body>
+</html>
